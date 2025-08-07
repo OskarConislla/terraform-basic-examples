@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" { #rg2 son solo nombres
-  name     = "cicd-group"
+  name     = "cicd-group-osk"
   location = "eastus2"
 }
 
