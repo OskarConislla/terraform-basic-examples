@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ${{github.workspace/cicd}}
+        working-directory: ${{github.workspace}}/cicd
     steps:
     - uses: actions/checkout@v2
     - uses: hashicorp/setup-terraform@v1
